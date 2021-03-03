@@ -1,6 +1,6 @@
-import { CustomersExtProfile as CustomersExtProfilePrev } from "../20.10/CustomersExtProfile";
+import Previous from "../20.10";
 
-export interface CustomersExtProfile extends CustomersExtProfilePrev {
+export interface CustomersExtProfile extends Previous.CustomersExtProfile {
   /**
    * maxLength=256
    */

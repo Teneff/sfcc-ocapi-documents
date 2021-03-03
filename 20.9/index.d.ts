@@ -1,4 +1,4 @@
-import Previous from "../20.9";
+import Previous from "../20.8";
 
 namespace SFCC {
   export type CouponItem = Previous.CouponItem;
@@ -7,7 +7,7 @@ namespace SFCC {
   export type ProductDetailsLink = Previous.ProductDetailsLink;
   export type Recommendation = Previous.Recommendation;
   export type Taxation = Previous.Taxation;
-  export { Customer } from "./Customer";
+  export type Customer = Previous.Customer;
   export type GiftCertificateItem = Previous.GiftCertificateItem;
   export type OptionValue = Previous.OptionValue;
   export type ProductItem = Previous.ProductItem;
@@ -52,7 +52,7 @@ namespace SFCC {
   export type Product = Previous.Product;
   export type PromotionLink = Previous.PromotionLink;
   export type SiteSpecific = Previous.SiteSpecific;
-  export type CustomersExtProfile = Previous.CustomersExtProfile;
+  export { CustomersExtProfile } from "./CustomersExtProfile";
 }
 
 export default SFCC;
