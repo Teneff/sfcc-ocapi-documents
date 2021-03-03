@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/teneff/sfcc-documents.git"
+    "url": "git+https://github.com/Teneff/sfcc-ocapi-documents.git.git"
   },
   "keywords": [
     "SFCC",
@@ -22,9 +22,9 @@
   "author": "Stefan Teneff",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/teneff/sfcc-documents/issues"
+    "url": "https://github.com/Teneff/sfcc-ocapi-documents.git/issues"
   },
-  "homepage": "https://github.com/teneff/sfcc-documents#readme",
+  "homepage": "https://github.com/Teneff/sfcc-ocapi-documents.git#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
