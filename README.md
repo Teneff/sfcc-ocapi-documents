@@ -8,7 +8,7 @@ TypeScript types based on the [official documentation][doc-index]
 
 ### For the latest OCAPI version
 ```typescript
-    import SFCC from 'sfcc-ocapi-documents'
+    import * as SFCC from 'sfcc-ocapi-documents'
 
     let basket: SFCC.Basket 
 ```
@@ -16,7 +16,7 @@ TypeScript types based on the [official documentation][doc-index]
 
 ### For other versions (**PRs are welcome**)
 ```typescript
-    import SFCC from 'sfcc-ocapi-documents/20.10'
+    import * as SFCC from 'sfcc-ocapi-documents/20.10'
 
     let basket: SFCC.Basket 
 ```

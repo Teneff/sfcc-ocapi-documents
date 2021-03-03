@@ -1,4 +1,4 @@
-import Previous from "../20.10";
+import * as Previous from "../20.10";
 
 export interface CustomersExtProfile extends Previous.CustomersExtProfile {
   /**

@@ -1,1 +1,1 @@
-export { default } from "./21.2";
+export * from "./21.2";
