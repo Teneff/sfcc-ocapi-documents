@@ -50,6 +50,7 @@ namespace SFCC {
   export { Product } from "./Product";
   export { PromotionLink } from "./PromotionLink";
   export { SiteSpecific } from "./SiteSpecific";
+  export { CustomersExtProfile } from "./CustomersExtProfile";
 }
 
 export default SFCC;
