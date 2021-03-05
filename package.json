@@ -1,6 +1,6 @@
 {
   "name": "sfcc-ocapi-documents",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SFCC Shop API documents",
   "main": "index.d.ts",
   "scripts": {
