@@ -5,7 +5,7 @@ export interface Flash {
   /**
    * maxItems=10	An optional map containing details about this message.
    */
-  details: Record<string, unknown>;
+  details?: Record<string, unknown>;
   /**
    * maxLength=400	A short message with information for the user.
    */

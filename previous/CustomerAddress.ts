@@ -1,3 +1,5 @@
+import { DateTime } from "../utils";
+
 export interface CustomerAddress {
   /**
    * maxLength=256	The first address.
@@ -26,7 +28,7 @@ export interface CustomerAddress {
   /**
    * Returns the value of attribute 'creationDate'.
    */
-  creation_date: Date;
+  creation_date: DateTime;
   /**
    * maxLength=256	The first name.
    */
@@ -42,7 +44,7 @@ export interface CustomerAddress {
   /**
    * Returns the value of attribute 'lastModified'.
    */
-  last_modified: Date;
+  last_modified: DateTime;
   /**
    * maxLength=256	The last name.
    */

@@ -6,7 +6,7 @@ export interface CustomerInfo {
   /**
    * customer_no	string	maxLength=100	The customer's number (id).
    */
-  customer_name: string;
+  customer_name?: string;
   /**
    * mandatory=true, nullable=false	The customer's email address.
    */

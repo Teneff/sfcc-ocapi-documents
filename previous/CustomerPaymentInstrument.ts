@@ -1,3 +1,5 @@
+import { DateTime } from "../utils";
+
 export interface CustomerPaymentInstrument {
   /**
    * maxLength=256	The bank routing number.
@@ -6,11 +8,11 @@ export interface CustomerPaymentInstrument {
   /**
    * Returns the value of attribute 'creationDate'.
    */
-  creation_date: Date;
+  creation_date: DateTime;
   /**
    * Returns the value of attribute 'lastModified'.
    */
-  last_modified: Date;
+  last_modified: DateTime;
   /**
    * The masked gift certificate code.
    */

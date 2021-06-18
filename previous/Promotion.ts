@@ -1,4 +1,4 @@
-import { Date } from "../utils";
+import { DateTime } from "../utils";
 import { Localized } from "../utils/Localized";
 import { PromotionAssignmentInformation } from "./PromotionAssignmentInformation";
 import { Tag } from "./Tag";
@@ -24,7 +24,7 @@ export interface Promotion {
   /**
    * Returns the value of attribute 'creationDate'.
    */
-  creation_date: Date;
+  creation_date: DateTime;
   /**
    * maxLength=3	The ISO 4217 mnemonic code of the currency
    * this promotion is restricted to. If not populated,
@@ -57,7 +57,7 @@ export interface Promotion {
   /**
    * Returns the value of attribute 'lastModified'.
    */
-  last_modified: Date;
+  last_modified: DateTime;
   /**
    * A URL that is used to get the details of this promotion.
    */

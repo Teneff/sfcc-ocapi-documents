@@ -1,3 +1,4 @@
+import { DateTime } from "../utils";
 import { CustomerAddress } from "./CustomerAddress";
 import { CustomerPaymentInstrument } from "./CustomerPaymentInstrument";
 
@@ -15,7 +16,7 @@ export interface Customer {
   /**
    * The customer's birthday.
    */
-  birthday: Date;
+  birthday: DateTime;
   /**
    * maxLength=256	The customer's company name.
    */
@@ -23,7 +24,7 @@ export interface Customer {
   /**
    * Returns the value of attribute 'creationDate'.
    */
-  creation_date: Date;
+  creation_date: DateTime;
   /**
    * maxLength=28	The customer's number (id). Both registered and guest customers have a customer id.
    */
@@ -59,11 +60,11 @@ export interface Customer {
   /**
    * The time when the customer last logged in.
    */
-  last_login_time: Date;
+  last_login_time: DateTime;
   /**
    * Returns the value of attribute 'lastModified'.
    */
-  last_modified: Date;
+  last_modified: DateTime;
   /**
    * maxLength=256	The customer's last name.
    */
@@ -71,7 +72,7 @@ export interface Customer {
   /**
    * The time when the customer last visited.
    */
-  last_visit_time: Date;
+  last_visit_time: DateTime;
   /**
    * maxLength=256	The customer's login.
    */
@@ -103,11 +104,11 @@ export interface Customer {
   /**
    * The time when the customer logged in previously.
    */
-  previous_login_time: Date;
+  previous_login_time: DateTime;
   /**
    * The time when the customer last visited the store.
    */
-  previous_visit_time: Date;
+  previous_visit_time: DateTime;
   /**
    * maxLength=256	The salutation to use for the customer.
    */

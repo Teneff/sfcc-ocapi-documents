@@ -24,7 +24,7 @@ export interface ShippingItem {
   /**
    * Array of price adjustments. Can be empty.
    */
-  price_adjustments: PriceAdjustment[];
+  price_adjustments?: PriceAdjustment[];
   /**
    * The price of the product line item after applying all product-level adjustments. For net pricing the adjusted net price is returned. For gross pricing, the adjusted gross price is returned.
    */

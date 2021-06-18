@@ -21,7 +21,7 @@ export interface Shipment {
   /**
    * The gift message.
    */
-  gift_message: string;
+  gift_message?: string;
   /**
    * The products total tax in purchase currency. Merchandize total prices represent the sum of product prices before services such as shipping or adjustment from promotions have been added.
    */
@@ -41,7 +41,7 @@ export interface Shipment {
   /**
    * Returns the shipment number for this shipment. This number is automatically generated.
    */
-  shipment_no: string;
+  shipment_no?: string;
   /**
    * The total price of the shipment, including products, shipping and tax.
    * Note that order level adjustments are not considered.
@@ -51,11 +51,11 @@ export interface Shipment {
   /**
    * The shipping address.
    */
-  shipping_address: OrderAddress;
+  shipping_address?: OrderAddress;
   /**
    * The shipping method.
    */
-  shipping_method: ShippingMethod;
+  shipping_method?: ShippingMethod;
   /**
    * The shipping status of the shipment.
    */
@@ -77,5 +77,5 @@ export interface Shipment {
   /**
    * The tracking number of the shipment.
    */
-  tracking_number: string;
+  tracking_number?: string;
 }

@@ -1,3 +1,5 @@
+import { DateTime } from "../utils";
+
 export interface Campaign {
   /**
    * maxLength=256, minLength=1	The ID of the campaign.
@@ -10,7 +12,7 @@ export interface Campaign {
   /**
    * Returns the value of attribute 'creationDate'.
    */
-  creation_date: Date;
+  creation_date: DateTime;
   /**
    * The array of assigned customer groups, not sorted
    */
@@ -26,11 +28,11 @@ export interface Campaign {
   /**
    * The date that the Scenario ends
    */
-  end_date: Date;
+  end_date: DateTime;
   /**
    * Returns the value of attribute 'lastModified'.
    */
-  last_modified: Date;
+  last_modified: DateTime;
   /**
    * link for convenience
    */
@@ -42,5 +44,5 @@ export interface Campaign {
   /**
    * The date that the Scenario begins
    */
-  start_date: Date;
+  start_date: DateTime;
 }

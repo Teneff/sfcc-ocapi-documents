@@ -1,3 +1,5 @@
+import { DateTime } from "../utils";
+
 export interface Inventory {
   /**
    * The ats of the product. If it is infinity, the return value is 999999. The value can be overwritten by the OCAPI setting 'product.inventory.ats.max_threshold'.
@@ -14,7 +16,7 @@ export interface Inventory {
   /**
    * A flag indicating the date when the product will be in stock.
    */
-  in_stock_date: Date;
+  in_stock_date: DateTime;
   /**
    * A flag indicating whether at least one of products is available to sell.
    */

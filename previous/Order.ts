@@ -1,3 +1,4 @@
+import { DateTime } from "../utils";
 import { BonusDiscountLineItem } from "./BonusDiscountLineItem";
 import { ChannelType } from "./ChannelType";
 import { CouponItem } from "./CouponItem";
@@ -63,7 +64,7 @@ export interface Order {
   /**
    * Returns the value of attribute 'creationDate'.
    */
-  creation_date: Date;
+  creation_date: DateTime;
   /**
    * The ISO 4217 mnemonic code of the currency.
    */
@@ -91,7 +92,7 @@ export interface Order {
   /**
    * Returns the value of attribute 'lastModified'.
    */
-  last_modified: Date;
+  last_modified: DateTime;
   /**
    * The products total tax in purchase currency. Merchandize total prices represent the sum of product prices before services such as shipping or adjustment from promotions have been added.
    */

@@ -1,3 +1,4 @@
+import { DateTime } from "../utils";
 import { AssignedExperiences } from "./AssignedExperiences";
 import { AssignedQualifiers } from "./AssignedQualifiers";
 
@@ -21,7 +22,7 @@ export interface Assignment {
   /**
    * The date that the Assignment ends.
    */
-  end_date: Date;
+  end_date: DateTime;
   /**
    * mandatory=true, maxItems=20, minItems=1, nullable=false
    */
@@ -37,5 +38,5 @@ export interface Assignment {
   /**
    * The date that the Assignment begins.
    */
-  start_date: Date;
+  start_date: DateTime;
 }

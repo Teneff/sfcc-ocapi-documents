@@ -1,3 +1,4 @@
+import { DateTime } from "../utils";
 import { Discount } from "./Discount";
 
 export interface PriceAdjustment {
@@ -16,7 +17,7 @@ export interface PriceAdjustment {
   /**
    * Returns the value of attribute 'creationDate'.
    */
-  creation_date: Date;
+  creation_date: DateTime;
   /**
    * A flag indicating whether this price adjustment was created by custom logic. This flag is set to true unless the price adjustment was created by the promotion engine.
    */
@@ -28,7 +29,7 @@ export interface PriceAdjustment {
   /**
    * Returns the value of attribute 'lastModified'.
    */
-  last_modified: Date;
+  last_modified: DateTime;
   /**
    * A flag indicating whether this price adjustment was created in a manual process.
    * For custom price adjustments created using the shop API, this always returns true. Using the scripting API, however, it is possible to set this to true or false, according to the use case.
