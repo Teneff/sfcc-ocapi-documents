@@ -1,4 +1,4 @@
-import * as Previous from "../19.10";
+import * as Previous from "./previous";
 
 type CatalogCategoryId = string | unknown;
 

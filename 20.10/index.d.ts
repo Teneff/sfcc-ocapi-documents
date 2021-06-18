@@ -1,3 +1,3 @@
-export * from "../20.9";
+export * from "./previous";
 
 export { Customer } from "./Customer";

@@ -1,4 +1,4 @@
-export * from "../19.10";
+export * from "./previous";
 
 export { AssignedExperiences } from "./AssignedExperiences";
 export { AssignedQualifiers } from "./AssignedQualifiers";

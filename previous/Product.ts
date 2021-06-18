@@ -1,4 +1,4 @@
-import { Localized } from "./Localized";
+import { Localized } from "../utils/Localized";
 import { ProductLink } from "./ProductLink";
 import { ProductPromotion } from "./ProductPromotion";
 import { ProductType } from "./ProductType";

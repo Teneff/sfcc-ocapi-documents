@@ -1,4 +1,4 @@
-import * as Previous from "../20.3";
+import * as Previous from "./previous";
 
 export interface VariationGroup extends Previous.VariationGroup {
   /**

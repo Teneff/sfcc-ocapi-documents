@@ -1,4 +1,4 @@
-import * as Previous from "../20.4";
+import * as Previous from "./previous";
 import { PathRecord } from "./PathRecord";
 
 export interface Category extends Previous.Category {

@@ -1,5 +1,5 @@
+import { Localized } from "../utils/Localized";
 import { Image } from "./Image";
-import { Localized } from "./Localized";
 
 export interface VariationAttributeValue {
   /**

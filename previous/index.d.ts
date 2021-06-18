@@ -49,3 +49,4 @@ export { Product } from "./Product";
 export { PromotionLink } from "./PromotionLink";
 export { SiteSpecific } from "./SiteSpecific";
 export { ProductSearchHit } from "./ProductSearchHit";
+export { PromotionCampaignAssignment } from "./PromotionCampaignAssignment";

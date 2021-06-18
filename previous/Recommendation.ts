@@ -1,5 +1,5 @@
+import { Localized } from "../utils";
 import { Image } from "./Image";
-import { Localized } from "./Localized";
 import { RecommendationType } from "./RecommendationType";
 
 export interface Recommendation {

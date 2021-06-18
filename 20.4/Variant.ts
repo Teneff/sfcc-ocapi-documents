@@ -1,4 +1,4 @@
-import * as Previous from "../20.3";
+import * as Previous from "./previous";
 
 export interface Variant extends Previous.Variant {
   /**

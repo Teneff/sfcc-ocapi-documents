@@ -1,6 +1,6 @@
 import { ProductRef } from "../20.8/ProductRef";
 import { Image } from "./Image";
-import { Localized } from "./Localized";
+import { Localized } from "../utils/Localized";
 import { ProductType } from "./ProductType";
 import { VariationAttribute } from "./VariationAttribute";
 

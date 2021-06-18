@@ -1,4 +1,4 @@
-import * as Previous from "../20.4";
+import * as Previous from "./previous";
 
 export interface ProductSearchHit extends Previous.ProductSearchHit {
   /**

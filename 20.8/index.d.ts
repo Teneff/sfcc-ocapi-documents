@@ -1,4 +1,4 @@
-export * from "../20.4";
+export * from "./previous";
 
 export { Category } from "./Category";
 export { Master } from "./Master";

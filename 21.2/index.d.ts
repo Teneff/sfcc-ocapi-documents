@@ -1,3 +1,3 @@
-export * from "../20.10";
+export * from "./previous";
 
 export { CustomersExtProfile } from "./CustomersExtProfile";

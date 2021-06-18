@@ -1,4 +1,4 @@
-import { Localized } from "./Localized";
+import { Localized } from "../utils/Localized";
 
 export interface ProductPromotion {
   /**
