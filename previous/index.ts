@@ -33,7 +33,6 @@ export { ShippingMethod } from "./ShippingMethod";
 export { VariationGroup } from "./VariationGroup";
 export { BundledProduct } from "./BundledProduct";
 export { Discount } from "./Discount";
-export { Localized } from "./Localized";
 export { ProductPromotion } from "./ProductPromotion";
 export { ShippingPromotion } from "./ShippingPromotion";
 export { Category } from "./Category";

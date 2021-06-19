@@ -1,13 +1,13 @@
 import { Flash } from "../";
 
-type Typed<T> = T extends Record<keyof any, any>
+type Typed<T> = T extends Array<infer R>
+  ? Array<Typed<R>>
+  : T extends Record<string, any>
   ? {
       _type?: string;
     } & {
       [K in keyof T]: Typed<T[K]>;
     }
-  : T extends Array<infer R>
-  ? Array<Typed<R>>
   : T;
 
 export type Response<T> = Typed<
