@@ -1,34 +1,30 @@
 {
-  "name": "sfcc-ocapi-documents",
-  "version": "1.0.1",
-  "description": "SFCC Shop API documents",
-  "main": "index.d.ts",
-  "scripts": {
-    "lint": "eslint --ext ts",
-    "prebuild": "yarn lint",
-    "build": "tsc --noEmit"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Teneff/sfcc-ocapi-documents.git.git"
-  },
-  "keywords": [
-    "SFCC",
-    "OCAPI",
-    "Shop",
-    "API",
-    "documents"
-  ],
-  "author": "Stefan Teneff",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Teneff/sfcc-ocapi-documents.git/issues"
-  },
-  "homepage": "https://github.com/Teneff/sfcc-ocapi-documents.git#readme",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.16.1",
-    "@typescript-eslint/parser": "^4.16.1",
-    "eslint": "^7.21.0",
-    "typescript": "^4.2.2"
-  }
+    "name": "ocpai-documents",
+    "private": "true",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "publish": "yarn workspace sfcc-ocapi-documents publish",
+        "clean": "rimraf packages/*/dist",
+        "build": "yarn workspaces run build",
+        "lint": "eslint ."
+    },
+    "author": {
+        "name": "Stefan Teneff",
+        "email": "stefan@teneff.com"
+    },
+    "readme": "README.md",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Teneff/sfcc-ocapi-documents.git.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Teneff/sfcc-ocapi-documents.git/issues"
+    },
+    "homepage": "https://github.com/Teneff/sfcc-ocapi-documents.git#readme",
+    "devDependencies": {
+        "rimraf": "^3.0.2"
+    }
 }
