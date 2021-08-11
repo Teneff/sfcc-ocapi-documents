@@ -1,0 +1,40 @@
+{
+  "name": "sfcc-ocapi-documents",
+  "version": "1.0.2",
+  "description": "SFCC Shop API documents",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "lint": "eslint --ext ts",
+    "prebuild": "yarn lint",
+    "build": "tsc -b",
+    "postbuild": "cp package.json dist/; cp ../../README.md dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teneff/sfcc-ocapi-documents.git.git"
+  },
+  "keywords": [
+    "SFCC",
+    "OCAPI",
+    "Shop",
+    "API",
+    "documents"
+  ],
+  "readme": "README.md",
+  "author": {
+    "name": "Stefan Teneff",
+    "email": "stefan@teneff.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Teneff/sfcc-ocapi-documents.git/issues"
+  },
+  "homepage": "https://github.com/Teneff/sfcc-ocapi-documents.git#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.29.0",
+    "typescript": "^4.3.4"
+  }
+}
