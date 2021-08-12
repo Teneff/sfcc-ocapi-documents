@@ -71,17 +71,17 @@ yarn add sfcc-ocapi-documents
 ## Supported
 
 ### OCAPI versions
-- `20.10`
+- `latest`
+- `previous`
 - `20.2`
 - `20.3`
 - `20.4`
 - `20.8`
 - `20.9`
+- `20.10`
 - `21.2`
 - `21.6`
 - `21.8`
-- `latest`
-- `previous`
   
 #### Usage
 ```typescript
