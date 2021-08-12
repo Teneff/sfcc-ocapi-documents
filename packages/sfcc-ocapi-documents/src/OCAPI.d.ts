@@ -57,6 +57,8 @@ declare namespace OCAPI {
     type ShippingMethod = Record<string, unknown>;
     type ShippingPromotion = Record<string, unknown>;
     type SimpleLink = Record<string, unknown>;
+    type Store = Record<string, unknown>;
+    type StoreResult = Record<string, unknown>;
     type Tag = Record<string, unknown>;
     type Variant = Record<string, unknown>;
     type VariationAttribute = Record<string, unknown>;

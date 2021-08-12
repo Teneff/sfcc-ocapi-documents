@@ -27,9 +27,9 @@ TypeScript types based on the [official OCAPI documentation][doc-index]
     - [LocalTime](#localtime)
     - [Localized](#localized)
     - [TimeOfDay](#timeofday)
-    - [WithCustom<T>](#withcustomt)
-    - [Typed<T>](#typedt)
-    - [Response<T>](#responset)
+    - [WithCustom&lt;T&gt;](#withcustomt)
+    - [Typed&lt;T&gt;](#typedt)
+    - [Response&lt;T&gt;](#responset)
   - [Contribution](#contribution)
 
 ## Usage
@@ -95,68 +95,70 @@ yarn add sfcc-ocapi-documents
 ```
 
 ### Documents
-- ApproachingDiscount 
-- AssignedExperiences 
-- AssignedQualifiers 
-- Assignment 
-- Basket 
-- BonusDiscountLineItem 
-- BundledProduct 
-- Campaign 
-- Category 
-- CouponItem 
-- Customer 
-- CustomerAddress 
-- CustomerInfo 
-- CustomerPaymentInstrument 
-- CustomersExtProfile 
-- Discount 
-- Fault 
-- Flash 
-- GiftCertificate 
-- GiftCertificateItem 
-- Image 
-- ImageGroup 
-- Inventory 
-- Master 
-- Option 
-- OptionItem 
-- OptionValue 
-- Order 
-- OrderAddress 
-- OrderPaymentInstrument 
-- PathRecord 
-- PriceAdjustment 
-- Product 
-- ProductDetailsLink 
-- ProductItem 
-- ProductLink 
-- ProductListItemReference 
-- ProductListLink 
-- ProductPromotion 
-- ProductRef 
-- ProductSearchHit 
-- ProductType 
-- Promotion 
-- PromotionABTestGroupAssignment 
-- PromotionAssignmentInformation 
-- PromotionCampaignAssignment 
-- PromotionLink 
-- Recommendation 
-- RecommendationType 
-- Recurrence 
-- Schedule 
-- Shipment 
-- Shipment 
-- ShippingItem 
-- ShippingMethod 
-- ShippingPromotion 
-- SimpleLink 
-- Tag 
-- Variant 
-- VariationAttribute 
-- VariationAttributeValue 
-- VariationGroup 
+- ApproachingDiscount
+- AssignedExperiences
+- AssignedQualifiers
+- Assignment
+- Basket
+- BonusDiscountLineItem
+- BundledProduct
+- Campaign
+- Category
+- CouponItem
+- Customer
+- CustomerAddress
+- CustomerInfo
+- CustomerPaymentInstrument
+- CustomersExtProfile
+- Discount
+- Fault
+- Flash
+- GiftCertificate
+- GiftCertificateItem
+- Image
+- ImageGroup
+- Inventory
+- Master
+- Option
+- OptionItem
+- OptionValue
+- Order
+- OrderAddress
+- OrderPaymentInstrument
+- PathRecord
+- PriceAdjustment
+- Product
+- ProductDetailsLink
+- ProductItem
+- ProductLink
+- ProductListItemReference
+- ProductListLink
+- ProductPromotion
+- ProductRef
+- ProductSearchHit
+- ProductType
+- Promotion
+- PromotionABTestGroupAssignment
+- PromotionAssignmentInformation
+- PromotionCampaignAssignment
+- PromotionLink
+- Recommendation
+- RecommendationType
+- Recurrence
+- Schedule
+- Shipment
+- Shipment
+- ShippingItem
+- ShippingMethod
+- ShippingPromotion
+- SimpleLink
+- Store
+- StoreResult
+- Tag
+- Variant
+- VariationAttribute
+- VariationAttributeValue
+- VariationGroup
 
 ## [Examples can be found here](./packages/examples/src)
 
@@ -214,7 +216,7 @@ Object indicating time interval
         time_to: "23:59:59"
     };
 ```
-### WithCustom<T>
+### WithCustom&lt;T&gt;
 Ensures the keys of the given object are prefixed with `c_`
 ```typescript
     import { Util } from 'sfcc-ocapi-documents'
@@ -228,7 +230,7 @@ Ensures the keys of the given object are prefixed with `c_`
     }
 ```
 
-### Typed<T>
+### Typed&lt;T&gt;
 If given an object ensures it has optional `_type` property with `string` value and all of it's nested objects
 ```typescript
     import { Util } from 'sfcc-ocapi-documents'
@@ -253,7 +255,7 @@ If given an object ensures it has optional `_type` property with `string` value 
         }
     }
 ```
-### Response<T>
+### Response&lt;T&gt;
 Adds `_v: string`, `_resource_state?: string;` and `_flash?: Typed<Flash>[];` to the given object and ensures the rest of the properties are `Typed`
 
 ## Contribution
