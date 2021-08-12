@@ -10,4 +10,4 @@ export type ChannelType =
   | "subscriptions"
   | "onlinereservation"
   | "customerservicecenter"
-  | "instagramcommerce"
+  | "instagramcommerce";

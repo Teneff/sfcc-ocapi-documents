@@ -17,14 +17,7 @@ type ExportStatus = "not_exported" | "exported" | "ready" | "failed";
 type PaymentStatus = "not_paid" | "part_paid" | "paid";
 type ShippingStatus = "not_shipped" | "part_shipped" | "shipped";
 
-type Status =
-  | "created"
-  | "new"
-  | "open"
-  | "completed"
-  | "cancelled"
-  | "replaced"
-  | "failed";
+type Status = "created" | "new" | "open" | "completed" | "cancelled" | "replaced" | "failed";
 
 type Taxation = "gross" | "net";
 

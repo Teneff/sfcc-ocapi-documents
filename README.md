@@ -2,9 +2,49 @@
 
 TypeScript types based on the [official OCAPI documentation][doc-index]
 
+[![NPM version][npm-img-latest]][npm-url]
+[![Build Status][build-img]][build-url]
+[![GitHub issues][issues-image]][issues-url]
+[![GitHub stars][github-stars-img]][github-stars-url]
+
 ---
+- [SFCC Shop API documents](#sfcc-shop-api-documents)
+  - [Usage](#usage)
+    - [Installation](#installation)
+    - [For the **latest** OCAPI version](#for-the-latest-ocapi-version)
+    - [For other versions](#for-other-versions)
+    - [Additional OCAPI response attributes](#additional-ocapi-response-attributes)
+  - [Supported](#supported)
+    - [OCAPI versions](#ocapi-versions)
+      - [Usage](#usage-1)
+    - [Documents](#documents)
+  - [Examples can be found here](#examples-can-be-found-here)
+  - [Extending the Document objects](#extending-the-document-objects)
+  - [Utility types](#utility-types)
+    - [Date](#date)
+    - [DateTime](#datetime)
+    - [DayOfWeek](#dayofweek)
+    - [LocalTime](#localtime)
+    - [Localized](#localized)
+    - [TimeOfDay](#timeofday)
+    - [WithCustom<T>](#withcustomt)
+    - [Typed<T>](#typedt)
+    - [Response<T>](#responset)
+  - [Contribution](#contribution)
 
 ## Usage
+
+### Installation
+
+using npm:
+```shell
+npm install sfcc-ocapi-documents
+```
+
+using yarn:
+```sh
+yarn add sfcc-ocapi-documents
+```
 
 ### For the **latest** OCAPI version
 ```typescript
@@ -28,7 +68,97 @@ TypeScript types based on the [official OCAPI documentation][doc-index]
     const basket: Util.Response<OCAPI.Basket> = {...}
 ```
 
-## [Examples can be found here](./packages/examples)
+## Supported
+
+### OCAPI versions
+- `20.10`
+- `20.2`
+- `20.3`
+- `20.4`
+- `20.8`
+- `20.9`
+- `21.2`
+- `21.6`
+- `21.8`
+- `latest`
+- `previous`
+  
+#### Usage
+```typescript
+    // latest
+    import OCAPI from 'sfcc-ocapi-documents'
+    // equivalent to above
+    import OCAPI from 'sfcc-ocapi-documents/latest'
+
+    // specific version 
+    import OCAPI from 'sfcc-ocapi-documents/21.2'
+```
+
+### Documents
+- ApproachingDiscount 
+- AssignedExperiences 
+- AssignedQualifiers 
+- Assignment 
+- Basket 
+- BonusDiscountLineItem 
+- BundledProduct 
+- Campaign 
+- Category 
+- CouponItem 
+- Customer 
+- CustomerAddress 
+- CustomerInfo 
+- CustomerPaymentInstrument 
+- CustomersExtProfile 
+- Discount 
+- Fault 
+- Flash 
+- GiftCertificate 
+- GiftCertificateItem 
+- Image 
+- ImageGroup 
+- Inventory 
+- Master 
+- Option 
+- OptionItem 
+- OptionValue 
+- Order 
+- OrderAddress 
+- OrderPaymentInstrument 
+- PathRecord 
+- PriceAdjustment 
+- Product 
+- ProductDetailsLink 
+- ProductItem 
+- ProductLink 
+- ProductListItemReference 
+- ProductListLink 
+- ProductPromotion 
+- ProductRef 
+- ProductSearchHit 
+- ProductType 
+- Promotion 
+- PromotionABTestGroupAssignment 
+- PromotionAssignmentInformation 
+- PromotionCampaignAssignment 
+- PromotionLink 
+- Recommendation 
+- RecommendationType 
+- Recurrence 
+- Schedule 
+- Shipment 
+- Shipment 
+- ShippingItem 
+- ShippingMethod 
+- ShippingPromotion 
+- SimpleLink 
+- Tag 
+- Variant 
+- VariationAttribute 
+- VariationAttributeValue 
+- VariationGroup 
+
+## [Examples can be found here](./packages/examples/src)
 
 ## Extending the Document objects
 To add custom properties to the documents you can create a OCAPI.d.ts ([example](./packages/examples/src/OCAPI.d.ts)). If the keys of the interface are not prefixed with `c_` - they will be automatically prefixed
@@ -53,10 +183,10 @@ Dash separated numbers
     const date: Util.Date = '2020-10-10';
 ```
 ### DateTime
-the ISO 8601 standard: "2012-03-19T07:22Z".
+the ISO 8601 standard: "2012-03-19T07:22:59Z".
 ```typescript
     import { Util } from 'sfcc-ocapi-documents'
-    const dateTime: Util.DateTime = "2012-03-19T07:22Z";
+    export const dateTime: Util.DateTime = "2012-03-19T07:22:59Z";
 ```
 ### DayOfWeek
 Lowercase day of the week
@@ -131,3 +261,11 @@ PRs are welcome for adding missing interfaces or versions
 
 
 [doc-index]: https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/OCAPI/current/shop/Documents/index.html
+[npm-img-latest]: https://img.shields.io/npm/v/sfcc-ocapi-documents/latest.svg?logo=npm&style=flat
+[npm-url]: https://www.npmjs.com/package/sfcc-ocapi-documents
+[build-img]: https://github.com/teneff/sfcc-ocapi-documents/actions/workflows/build.yml/badge.svg?branch=master
+[build-url]: https://github.com/teneff/sfcc-ocapi-documents/actions?query=branch%3Amaster
+[issues-image]: https://img.shields.io/github/issues/Teneff/sfcc-ocapi-documents/bug.svg?logo=github&style=flat
+[issues-url]: https://github.com/teneff/sfcc-ocapi-documents/issues
+[github-stars-img]: https://img.shields.io/github/stars/teneff/sfcc-ocapi-documents.svg?logo=github&logoColor=fff
+[github-stars-url]: https://github.com/teneff/sfcc-ocapi-documents/stargazers

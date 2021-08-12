@@ -3,7 +3,8 @@ import { Campaign } from "./Campaign";
 import { Promotion } from "./Promotion";
 import { Schedule } from "./Schedule";
 
-export interface PromotionCampaignAssignment extends WithCustom<OCAPI.Custom.PromotionCampaignAssignment> {
+export interface PromotionCampaignAssignment
+  extends WithCustom<OCAPI.Custom.PromotionCampaignAssignment> {
   /**
    * The campaign
    */

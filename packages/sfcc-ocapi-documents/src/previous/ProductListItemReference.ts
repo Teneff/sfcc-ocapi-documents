@@ -1,7 +1,8 @@
 import { WithCustom } from "../utils";
 import { ProductListLink } from "./ProductListLink";
 
-export interface ProductListItemReference extends WithCustom<OCAPI.Custom.ProductListItemReference> {
+export interface ProductListItemReference
+  extends WithCustom<OCAPI.Custom.ProductListItemReference> {
   /**
    * mandatory=true, nullable=false	The id of the product list item.
    */

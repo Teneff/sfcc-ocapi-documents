@@ -3,8 +3,7 @@ import OCAPI, { Util } from "sfcc-ocapi-documents";
 export const emptyBasket: Util.Response<OCAPI.Basket> = {
   _v: "21.6",
   _type: "basket",
-  _resource_state:
-    "b9b81f3aa9377353a69fb421ed5076028e87998596e38ef27744f997de5342b2",
+  _resource_state: "b9b81f3aa9377353a69fb421ed5076028e87998596e38ef27744f997de5342b2",
   _flash: [
     {
       _type: "flash",
@@ -15,22 +14,19 @@ export const emptyBasket: Util.Response<OCAPI.Basket> = {
     {
       _type: "flash",
       type: "PaymentMethodRequired",
-      message:
-        "No payment method ID was specified. Please provide a valid payment method ID.",
+      message: "No payment method ID was specified. Please provide a valid payment method ID.",
       path: "$.payment_instruments[0].payment_method_id",
     },
     {
       _type: "flash",
       type: "BillingAddressRequired",
-      message:
-        "No billing address was specified. Please provide a valid billing address.",
+      message: "No billing address was specified. Please provide a valid billing address.",
       path: "$.billing_address",
     },
     {
       _type: "flash",
       type: "ShippingAddressRequired",
-      message:
-        "No shipping address was specified. Please provide a valid shipping address.",
+      message: "No shipping address was specified. Please provide a valid shipping address.",
       path: "$.shipments[0].shipping_address",
       details: {
         shipmentId: "me",
@@ -39,8 +35,7 @@ export const emptyBasket: Util.Response<OCAPI.Basket> = {
     {
       _type: "flash",
       type: "ShippingMethodRequired",
-      message:
-        "No shipping method ID was specified. Please provide a valid shipping method ID.",
+      message: "No shipping method ID was specified. Please provide a valid shipping method ID.",
       path: "$.shipments[0].shipping_method",
       details: {
         shipmentId: "me",

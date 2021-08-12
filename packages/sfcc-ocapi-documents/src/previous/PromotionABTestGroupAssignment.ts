@@ -1,7 +1,8 @@
 import { WithCustom } from "../utils";
 import { Schedule } from "./Schedule";
 
-export interface PromotionABTestGroupAssignment extends WithCustom<OCAPI.Custom.PromotionABTestGroupAssignment> {
+export interface PromotionABTestGroupAssignment
+  extends WithCustom<OCAPI.Custom.PromotionABTestGroupAssignment> {
   /**
    * 	 	The description for the ABTest assigned to the promotion in the promotionabtestgroupassignment
    */
