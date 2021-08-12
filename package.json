@@ -26,5 +26,6 @@
     "homepage": "https://github.com/Teneff/sfcc-ocapi-documents.git#readme",
     "devDependencies": {
         "rimraf": "^3.0.2"
-    }
+    },
+    "version": "0.0.1"
 }
