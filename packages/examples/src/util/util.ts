@@ -9,5 +9,3 @@ export const day: Util.DayOfWeek = "friday";
 export const time: Util.LocalTime = "23:59:59";
 
 export const str: Util.Localized<string> = "супер кул";
-
-

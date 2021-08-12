@@ -1,7 +1,6 @@
 import * as Previous from "./previous";
 
-export interface PromotionCampaignAssignment
-  extends Previous.PromotionCampaignAssignment {
+export interface PromotionCampaignAssignment extends Previous.PromotionCampaignAssignment {
   /**
    * True if the assigned promotion is coupon based.
    * When set to false, Coupons in the campaign and

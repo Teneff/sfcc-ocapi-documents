@@ -3,28 +3,24 @@ import OCAPI, { Util } from "sfcc-ocapi-documents";
 export const withCustom: Util.Response<OCAPI.Basket> = {
   _v: "21.6",
   _type: "basket",
-  _resource_state:
-    "f31c37e7e1aa981b5fe47b9951aacbda7c3eb8588ceafb949b2141d8d5aafbdf",
+  _resource_state: "f31c37e7e1aa981b5fe47b9951aacbda7c3eb8588ceafb949b2141d8d5aafbdf",
   _flash: [
     {
       _type: "flash",
       type: "PaymentMethodRequired",
-      message:
-        "No payment method ID was specified. Please provide a valid payment method ID.",
+      message: "No payment method ID was specified. Please provide a valid payment method ID.",
       path: "$.payment_instruments[0].payment_method_id",
     },
     {
       _type: "flash",
       type: "BillingAddressRequired",
-      message:
-        "No billing address was specified. Please provide a valid billing address.",
+      message: "No billing address was specified. Please provide a valid billing address.",
       path: "$.billing_address",
     },
     {
       _type: "flash",
       type: "ShippingAddressRequired",
-      message:
-        "No shipping address was specified. Please provide a valid shipping address.",
+      message: "No shipping address was specified. Please provide a valid shipping address.",
       path: "$.shipments[0].shipping_address",
       details: {
         shipmentId: "me",

@@ -5,7 +5,8 @@ import { Schedule } from "./Schedule";
 
 type ScheduleType = "none" | "campaign" | "abtest" | "multiple";
 
-export interface PromotionAssignmentInformation extends WithCustom<OCAPI.Custom.PromotionAssignmentInformation> {
+export interface PromotionAssignmentInformation
+  extends WithCustom<OCAPI.Custom.PromotionAssignmentInformation> {
   /**
    * If there is only one assignment, and that assignment is
    * an A/B test segment, the id of the A/B test the segment

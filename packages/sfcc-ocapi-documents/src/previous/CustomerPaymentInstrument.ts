@@ -1,6 +1,7 @@
 import { DateTime, WithCustom } from "../utils";
 
-export interface CustomerPaymentInstrument extends WithCustom<OCAPI.Custom.CustomerPaymentInstrument> {
+export interface CustomerPaymentInstrument
+  extends WithCustom<OCAPI.Custom.CustomerPaymentInstrument> {
   /**
    * maxLength=256	The bank routing number.
    */

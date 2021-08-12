@@ -3,28 +3,24 @@ import OCAPI, { Util } from "sfcc-ocapi-documents";
 export const customerCustomFields: Util.Response<OCAPI.Basket> = {
   _v: "21.6",
   _type: "basket",
-  _resource_state:
-    "d779e067c8973c8738804e6d3e1cbe2d2d07f377ecb4c2bd6baa21e36098ba11",
+  _resource_state: "d779e067c8973c8738804e6d3e1cbe2d2d07f377ecb4c2bd6baa21e36098ba11",
   _flash: [
     {
       _type: "flash",
       type: "PaymentMethodRequired",
-      message:
-        "No payment method ID was specified. Please provide a valid payment method ID.",
+      message: "No payment method ID was specified. Please provide a valid payment method ID.",
       path: "$.payment_instruments[0].payment_method_id",
     },
     {
       _type: "flash",
       type: "BillingAddressRequired",
-      message:
-        "No billing address was specified. Please provide a valid billing address.",
+      message: "No billing address was specified. Please provide a valid billing address.",
       path: "$.billing_address",
     },
     {
       _type: "flash",
       type: "ShippingAddressRequired",
-      message:
-        "No shipping address was specified. Please provide a valid shipping address.",
+      message: "No shipping address was specified. Please provide a valid shipping address.",
       path: "$.shipments[0].shipping_address",
       details: {
         shipmentId: "me",
@@ -67,16 +63,14 @@ export const customerCustomFields: Util.Response<OCAPI.Basket> = {
           bonus_product_line_item: false,
           gift: false,
           item_id: "8db89f4751fa6f857e856ef090",
-          item_text:
-            "Test product",
+          item_text: "Test product",
           option_id: "someOption",
           option_value_id: "NP",
           price: 0.0,
           price_after_item_discount: 0.0,
           price_after_order_discount: 0.0,
           product_id: "_NP",
-          product_name:
-            "Test product",
+          product_name: "Test product",
           quantity: 1,
           shipment_id: "me",
           tax: 0.0,
@@ -91,16 +85,14 @@ export const customerCustomFields: Util.Response<OCAPI.Basket> = {
           bonus_product_line_item: false,
           gift: false,
           item_id: "049b5a44ab52b4626fab5cda8f",
-          item_text:
-            "Test product",
+          item_text: "Test product",
           option_id: "someOtherOption",
           option_value_id: "NP",
           price: 0.0,
           price_after_item_discount: 0.0,
           price_after_order_discount: 0.0,
           product_id: "_NP",
-          product_name:
-            "Test product",
+          product_name: "Test product",
           quantity: 1,
           shipment_id: "me",
           tax: 0.0,
