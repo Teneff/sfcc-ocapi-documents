@@ -1,3 +1,4 @@
+import { Note } from "./Note";
 import { DateTime, WithCustom } from "../utils";
 import { BonusDiscountLineItem } from "./BonusDiscountLineItem";
 import { ChannelType } from "./ChannelType";

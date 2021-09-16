@@ -10,10 +10,16 @@ declare namespace OCAPI {
     type Campaign = Record<string, unknown>;
     type Category = Record<string, unknown>;
     type CouponItem = Record<string, unknown>;
+    type ContentFolder = Record<string, unknown>;
+    type Content = Record<string, unknown>;
+    type CustomObject = Record<string, unknown>;
     type Customer = Record<string, unknown>;
     type CustomerAddress = Record<string, unknown>;
     type CustomerInfo = Record<string, unknown>;
     type CustomerPaymentInstrument = Record<string, unknown>;
+    type CustomerProductList = Record<string, unknown>;
+    type CustomerProductListItem = Record<string, unknown>;
+    type CustomerProductListItemPurchase = Record<string, unknown>;
     type CustomersExtProfile = Record<string, unknown>;
     type Discount = Record<string, unknown>;
     type Fault = Record<string, unknown>;
@@ -24,6 +30,7 @@ declare namespace OCAPI {
     type ImageGroup = Record<string, unknown>;
     type Inventory = Record<string, unknown>;
     type Master = Record<string, unknown>;
+    type Note = Record<string, unknown>;
     type Option = Record<string, unknown>;
     type OptionItem = Record<string, unknown>;
     type OptionValue = Record<string, unknown>;
@@ -59,10 +66,18 @@ declare namespace OCAPI {
     type SimpleLink = Record<string, unknown>;
     type Store = Record<string, unknown>;
     type StoreResult = Record<string, unknown>;
+    type Suggestion = Record<string, unknown>;
     type Tag = Record<string, unknown>;
     type Variant = Record<string, unknown>;
     type VariationAttribute = Record<string, unknown>;
     type VariationAttributeValue = Record<string, unknown>;
     type VariationGroup = Record<string, unknown>;
+    type PublicProductListLink = Record<string, unknown>;
+    type PublicProductListItem = Record<string, unknown>;
+    type PublicProductList = Record<string, unknown>;
+    type SuggestedCategory = Record<string, unknown>;
+    type SuggestedContent = Record<string, unknown>;
+    type SuggestedProduct = Record<string, unknown>;
+    type SuggestedPhrase = Record<string, unknown>;
   }
 }
