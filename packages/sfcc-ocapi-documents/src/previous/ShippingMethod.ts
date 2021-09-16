@@ -1,5 +1,5 @@
-import { Localized, WithCustom } from "../utils";
 import { ShippingPromotion } from "./ShippingPromotion";
+import { Localized, WithCustom } from "../utils";
 
 export interface ShippingMethod extends WithCustom<OCAPI.Custom.ShippingMethod> {
   /**

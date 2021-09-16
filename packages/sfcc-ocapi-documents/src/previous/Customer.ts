@@ -1,6 +1,6 @@
-import { DateTime, WithCustom } from "../utils";
 import { CustomerAddress } from "./CustomerAddress";
 import { CustomerPaymentInstrument } from "./CustomerPaymentInstrument";
+import { DateTime, WithCustom } from "../utils";
 
 type AuthType = "guest" | "registered";
 

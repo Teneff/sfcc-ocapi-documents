@@ -1,7 +1,7 @@
-import { DateTime, WithCustom } from "../utils";
 import { PromotionABTestGroupAssignment } from "./PromotionABTestGroupAssignment";
 import { PromotionCampaignAssignment } from "./PromotionCampaignAssignment";
 import { Schedule } from "./Schedule";
+import { DateTime, WithCustom } from "../utils";
 
 type ScheduleType = "none" | "campaign" | "abtest" | "multiple";
 

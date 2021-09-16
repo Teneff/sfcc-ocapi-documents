@@ -1,9 +1,9 @@
-import { WithCustom } from "../utils";
 import { SuggestedCategory } from "./SuggestedCategory";
 import { SuggestedContent } from "./SuggestedContent";
 import { SuggestedPhrase } from "./SuggestedPhrase";
 import { SuggestedProduct } from "./SuggestedProduct";
 import { SuggestedTerms } from "./SuggestedTerms";
+import { WithCustom } from "../utils";
 
 export interface Suggestion extends WithCustom<OCAPI.Custom.Suggestion> {
   /**

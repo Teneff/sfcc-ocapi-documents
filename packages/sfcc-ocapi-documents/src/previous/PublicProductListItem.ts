@@ -1,6 +1,6 @@
 import { Product } from "./Product";
-import { WithCustom } from "../utils";
 import { ProductSimpleLink } from "./ProductSimpleLink";
+import { WithCustom } from "../utils";
 
 export interface PublicProductListItem extends WithCustom<OCAPI.Custom.PublicProductListItem> {
   /**

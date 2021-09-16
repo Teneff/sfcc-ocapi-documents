@@ -1,6 +1,6 @@
-import { WithCustom } from "../utils";
 import { Localized } from "../utils/Localized";
 import { OptionValue } from "./OptionValue";
+import { WithCustom } from "../utils";
 
 export interface Option extends WithCustom<OCAPI.Custom.Option> {
   /**

@@ -1,5 +1,5 @@
-import { DateTime, WithCustom } from "../utils";
 import { Discount } from "./Discount";
+import { DateTime, WithCustom } from "../utils";
 
 export interface PriceAdjustment extends WithCustom<OCAPI.Custom.PriceAdjustment> {
   /**

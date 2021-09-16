@@ -1,6 +1,6 @@
-import { WithCustom } from "../utils";
 import { Image } from "./Image";
 import { VariationAttribute } from "./VariationAttribute";
+import { WithCustom } from "../utils";
 
 export interface ImageGroup extends WithCustom<OCAPI.Custom.ImageGroup> {
   /**

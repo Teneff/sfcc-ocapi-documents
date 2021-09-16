@@ -1,7 +1,7 @@
-import { DateTime, WithCustom } from "../utils";
 import { Localized } from "../utils/Localized";
 import { PromotionAssignmentInformation } from "./PromotionAssignmentInformation";
 import { Tag } from "./Tag";
+import { DateTime, WithCustom } from "../utils";
 
 type PromotionClass = "product" | "shipping" | "order";
 

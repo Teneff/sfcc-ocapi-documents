@@ -1,6 +1,6 @@
-import { Localized, WithCustom } from "../utils";
 import { Image } from "./Image";
 import { RecommendationType } from "./RecommendationType";
+import { Localized, WithCustom } from "../utils";
 
 export interface Recommendation extends WithCustom<OCAPI.Custom.Recommendation> {
   /**

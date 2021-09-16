@@ -1,6 +1,6 @@
-import { ProductListEvent } from ".";
-import { Localized, WithCustom } from "../utils";
 import { CustomerProductListItem } from "./CustomerProductListItem";
+import { ProductListEvent } from "./ProductListEvent";
+import { Localized, WithCustom } from "../utils";
 
 /**
  * Result document of product list addresses

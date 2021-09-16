@@ -1,6 +1,6 @@
-import { WithCustom } from "../utils";
-import { Localized } from "../utils/Localized";
 import { Image } from "./Image";
+import { Localized } from "../utils/Localized";
+import { WithCustom } from "../utils";
 
 export interface VariationAttributeValue extends WithCustom<OCAPI.Custom.VariationAttributeValue> {
   /**

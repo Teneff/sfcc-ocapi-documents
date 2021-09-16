@@ -1,7 +1,7 @@
-import { WithCustom } from "../utils";
 import { PriceAdjustment } from "./PriceAdjustment";
 import { ProductItem } from "./ProductItem";
 import { ProductListItemReference } from "./ProductListItemReference";
+import { WithCustom } from "../utils";
 
 export interface OptionItem extends WithCustom<OCAPI.Custom.OptionItem> {
   /**

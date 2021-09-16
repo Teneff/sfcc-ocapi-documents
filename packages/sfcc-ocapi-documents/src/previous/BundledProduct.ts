@@ -1,5 +1,5 @@
-import { WithCustom } from "../utils";
 import { Product } from "./Product";
+import { WithCustom } from "../utils";
 
 export interface BundledProduct extends WithCustom<OCAPI.Custom.BundledProduct> {
   /**

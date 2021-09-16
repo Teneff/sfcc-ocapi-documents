@@ -1,4 +1,3 @@
-import { DateTime, WithCustom } from "../utils";
 import { BonusDiscountLineItem } from "./BonusDiscountLineItem";
 import { ChannelType } from "./ChannelType";
 import { CouponItem } from "./CouponItem";
@@ -11,6 +10,7 @@ import { ProductItem } from "./ProductItem";
 import { Shipment } from "./Shipment";
 import { ShippingItem } from "./ShippingItem";
 import { SimpleLink } from "./SimpleLink";
+import { DateTime, WithCustom } from "../utils";
 
 type ConfirmationStatus = "not_confirmed" | "confirmed";
 type ExportStatus = "not_exported" | "exported" | "ready" | "failed";

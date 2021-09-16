@@ -1,5 +1,5 @@
-import { WithCustom } from "../utils";
 import { Store } from "./Store";
+import { WithCustom } from "../utils";
 
 export interface StoreResult extends WithCustom<OCAPI.Custom.StoreResult> {
   /**

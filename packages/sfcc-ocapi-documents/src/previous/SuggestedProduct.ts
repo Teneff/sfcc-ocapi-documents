@@ -1,5 +1,5 @@
-import { Localized, WithCustom } from "../utils";
 import { Image } from "./Image";
+import { Localized, WithCustom } from "../utils";
 
 /**
  * Document representing a product search hit.

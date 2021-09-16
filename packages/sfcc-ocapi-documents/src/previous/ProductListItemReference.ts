@@ -1,5 +1,5 @@
-import { WithCustom } from "../utils";
 import { ProductListLink } from "./ProductListLink";
+import { WithCustom } from "../utils";
 
 export interface ProductListItemReference
   extends WithCustom<OCAPI.Custom.ProductListItemReference> {

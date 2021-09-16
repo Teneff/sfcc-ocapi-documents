@@ -1,5 +1,5 @@
-import { WithCustom } from "../utils";
 import { PriceAdjustment } from "./PriceAdjustment";
+import { WithCustom } from "../utils";
 
 export interface ShippingItem extends WithCustom<OCAPI.Custom.ShippingItem> {
   /**

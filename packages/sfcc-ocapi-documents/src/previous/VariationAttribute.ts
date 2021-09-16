@@ -1,5 +1,5 @@
-import { Localized, WithCustom } from "../utils";
 import { VariationAttributeValue } from "./VariationAttributeValue";
+import { Localized, WithCustom } from "../utils";
 
 export interface VariationAttribute extends WithCustom<OCAPI.Custom.VariationAttribute> {
   /**

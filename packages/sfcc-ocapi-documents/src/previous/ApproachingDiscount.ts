@@ -1,7 +1,7 @@
-import { WithCustom } from "../utils";
 import { Discount } from "./Discount";
 import { PromotionLink } from "./PromotionLink";
 import { ShippingMethod } from "./ShippingMethod";
+import { WithCustom } from "../utils";
 
 export interface ApproachingDiscount extends WithCustom<OCAPI.Custom.ApproachingDiscount> {
   /**

@@ -1,4 +1,9 @@
+import { BundledProduct } from "./BundledProduct";
+import { ImageGroup } from "./ImageGroup";
+import { Inventory } from "./Inventory";
 import { Localized } from "../utils/Localized";
+import { Master } from "./Master";
+import { Option } from "./Option";
 import { ProductLink } from "./ProductLink";
 import { ProductPromotion } from "./ProductPromotion";
 import { ProductType } from "./ProductType";
@@ -6,11 +11,6 @@ import { Recommendation } from "./Recommendation";
 import { Variant } from "./Variant";
 import { VariationAttribute } from "./VariationAttribute";
 import { VariationGroup } from "./VariationGroup";
-import { Master } from "./Master";
-import { Option } from "./Option";
-import { Inventory } from "./Inventory";
-import { ImageGroup } from "./ImageGroup";
-import { BundledProduct } from "./BundledProduct";
 import { WithCustom } from "../utils";
 
 export interface Product extends WithCustom<OCAPI.Custom.Product> {

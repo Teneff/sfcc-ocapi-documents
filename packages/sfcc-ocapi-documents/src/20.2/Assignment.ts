@@ -1,6 +1,6 @@
-import { DateTime, WithCustom } from "../utils";
 import { AssignedExperiences } from "./AssignedExperiences";
 import { AssignedQualifiers } from "./AssignedQualifiers";
+import { DateTime, WithCustom } from "../utils";
 
 export interface Assignment extends WithCustom<OCAPI.Custom.Assignment> {
   /**

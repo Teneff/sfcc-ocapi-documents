@@ -1,5 +1,5 @@
-import { DateTime, WithCustom } from "../utils";
 import { Recurrence } from "./Recurrence";
+import { DateTime, WithCustom } from "../utils";
 
 export interface Schedule extends WithCustom<OCAPI.Custom.Schedule> {
   /**

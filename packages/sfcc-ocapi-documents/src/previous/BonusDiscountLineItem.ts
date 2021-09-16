@@ -1,5 +1,5 @@
-import { WithCustom } from "../utils";
 import { ProductDetailsLink } from "./ProductDetailsLink";
+import { WithCustom } from "../utils";
 
 export interface BonusDiscountLineItem extends WithCustom<OCAPI.Custom.BonusDiscountLineItem> {
   /**

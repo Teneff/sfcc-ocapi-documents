@@ -1,7 +1,7 @@
-import { WithCustom } from "../utils";
 import { ProductListEvent } from "./ProductListEvent";
 import { ProductSimpleLink } from "./ProductSimpleLink";
 import { PublicProductListItem } from "./PublicProductListItem";
+import { WithCustom } from "../utils";
 
 interface ProductListRegistrant {
   /**

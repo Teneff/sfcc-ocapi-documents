@@ -1,7 +1,7 @@
-import { WithCustom } from "../utils";
 import { Campaign } from "./Campaign";
 import { Promotion } from "./Promotion";
 import { Schedule } from "./Schedule";
+import { WithCustom } from "../utils";
 
 export interface PromotionCampaignAssignment
   extends WithCustom<OCAPI.Custom.PromotionCampaignAssignment> {

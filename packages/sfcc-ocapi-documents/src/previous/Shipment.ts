@@ -1,6 +1,6 @@
-import { WithCustom } from "../utils";
 import { OrderAddress } from "./OrderAddress";
 import { ShippingMethod } from "./ShippingMethod";
+import { WithCustom } from "../utils";
 
 type ShippingStatus = "not_shipped" | "shipped";
 

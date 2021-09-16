@@ -1,9 +1,4 @@
-import type {
-  Query,
-  Operator as QueryOperator,
-  OperatorWithValue,
-  OperatorWithoutValue,
-} from "./Query";
+import type { OperatorWithValue, OperatorWithoutValue, Query } from "./Query";
 
 export type Filter<T extends string = string> =
   | { bool_filter: BoolFilter<T> }

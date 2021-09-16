@@ -1,5 +1,3 @@
-import { Note } from "./Note";
-import { DateTime, WithCustom } from "../utils";
 import { BonusDiscountLineItem } from "./BonusDiscountLineItem";
 import { ChannelType } from "./ChannelType";
 import { CouponItem } from "./CouponItem";
@@ -13,6 +11,7 @@ import { Shipment } from "./Shipment";
 import { ShippingItem } from "./ShippingItem";
 import { SimpleLink } from "./SimpleLink";
 import { Taxation } from "./Taxation";
+import { DateTime, WithCustom } from "../utils";
 
 export interface Basket extends WithCustom<OCAPI.Custom.Basket> {
   /**
